@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <fstream>
 #include <string>
 
@@ -11,11 +11,11 @@ int main(void) {
 	string file1, file2;
 	string msg = "";
 
-	cout << "Введите название 1-го файла: ";
+	cout << "Р’РІРµРґРёС‚Рµ РЅР°Р·РІР°РЅРёРµ 1-РіРѕ С„Р°Р№Р»Р°: ";
 	cin >> file1;
 	file1 += ".txt";
 
-	cout << "Введите название 2-го файла: ";
+	cout << "Р’РІРµРґРёС‚Рµ РЅР°Р·РІР°РЅРёРµ 2-РіРѕ С„Р°Р№Р»Р°: ";
 	cin >> file2; 
 	file2 += ".txt";
 
@@ -34,10 +34,10 @@ int main(void) {
 			getline(fin2, str2);
 
 			if (str1 != str2) {
-				msg += "Файлы не одинаковые!!!";
+				msg += "Р¤Р°Р№Р»С‹ РЅРµ РѕРґРёРЅР°РєРѕРІС‹Рµ!!!";
 				break;
 			}
-			msg += "Файлы одинаковые";
+			msg += "Р¤Р°Р№Р»С‹ РѕРґРёРЅР°РєРѕРІС‹Рµ";
 		}
 
 		fin1.close(); 
